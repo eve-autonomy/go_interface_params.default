@@ -3,16 +3,16 @@
 ## Overview
 This is a package for managing parameters to use [go_interface](https://github.com/eve-autonomy/go_interface) more easily.
 
-This package has 4 types of parallel directories for parameter management:
-- `product`
-  - This directory manages the parameters as connection settings to the on-demand delivery app in the production environment.
-- `server_test`
-  - This directory manages the parameters as connection settings to the on-demand delivery app in the staging environment.
-- `local_test`
-  - This directory manages the parameters as connection settings to the dummy of the on-demand delivery application that runs locally.
-  - It is mainly used as a criterion for testing as OSS.
-- `not_use`
-  - This directory manages the parameters when not using the on-demand delivery application.
+This package has 4 types of parameter set in each directory depending on purposes.
+- `product` directory
+  - This is for on-demand delivery app in the **production** environment.
+- `server_test` directory
+  - This is for on-demand delivery app in the **staging** environment.
+- `local_test` directory
+  - This is a set of test parameter for on-demand delivery application that runs locally.
+  - This is used as a criterion for test before `go_interface` is released as OSS.
+- `not_use` directory
+  - When on-demand delivery is not required, this is set.
 
 The list of parameter names managed in these directories is the same, only the values are different.
 
