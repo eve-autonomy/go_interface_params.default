@@ -14,7 +14,7 @@ This package has 4 types of parameter set in each directory depending on purpose
 - `not_use` directory
   - When on-demand delivery is not required, this is set.
 
-The list of parameter names managed in these directories is the same, only the values are different.
+Parameters in these directories are same. Only their values are different from each directory.
 
 ## Parameter details
 See the [parameter description for go_interface](https://github.com/eve-autonomy/go_interface#parameter-description).
