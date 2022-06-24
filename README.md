@@ -1,7 +1,7 @@
 # go interface parameters
 
 ## Overview
-This is a package for managing parameters to make [go_interface](https://github.com/eve-autonomy/go_interface) easier to use.
+This is a package for managing parameters to use [go_interface](https://github.com/eve-autonomy/go_interface) more easily.
 
 This package has 4 types of parallel directories for parameter management:
 - `product`
